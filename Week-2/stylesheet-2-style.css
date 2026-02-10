@@ -1,0 +1,86 @@
+body
+{
+    color: white;
+    background-color: orangered;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color: orangered;
+    background-color: white;
+}
+.content h1
+{
+    color: orangered;
+}
+.content p
+{
+    color: #333;
+}
+.content a
+{
+    color: orangered;
+    text-decoration: none;
+}
+.content a:hover
+{
+    text-decoration: underline;
+}
+/* -- Right links --*/
+.part-1
+{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    
+}
+.part-1 a
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 15px;
+    background-color: orangered;
+}
+.part-1 a:nth-child(2)
+{
+    border: 1px solid orangered;
+    color: orangered;
+    font-weight: bold;
+    background-color: white;
+}
+.part-1 a:hover
+{
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+}
+/* -- center content -- */
+.center
+{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+/* -- last content -- */
+.part-2
+{
+    padding: 20px;
+    color: orangered;
+    background-color: rgb(252, 203, 185);
+    width: 97.4%;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}

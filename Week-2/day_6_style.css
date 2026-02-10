@@ -1,0 +1,111 @@
+.top-head
+{
+    width: 100%;
+    height: fit-content;
+    color: seagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightblue;
+    border: 1px solid lightseagreen;
+}
+.content
+{
+    gap: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    grid-template-columns: 200px 700px 200px;
+}
+.center, .part-2
+{
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 1px solid lightseagreen;
+}
+/* -- Left section -- */
+.part-1
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.part-1 a
+{
+    width: 100px;
+    color: seagreen;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid lightseagreen;
+}
+.part-1 a:hover
+{
+    color: white;
+    background-color: lightseagreen;
+}
+
+/* -- Center section -- */
+.center
+{
+    color: seagreen;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.center p
+{
+    color: #333;
+}
+.center a
+{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: seagreen;
+    text-decoration: none;
+    border: 1px solid seagreen;
+}
+.center a:hover
+{
+    color: white;
+    background-color: lightseagreen;
+    text-decoration: underline;
+}
+
+/* -- Right section -- */
+.part-2
+{
+    padding: 20px;
+    color: seagreen;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* -- End page -- */
+.end-page
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    height: fit-content;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid lightseagreen;
+}
